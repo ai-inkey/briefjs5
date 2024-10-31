@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>
+        JS async//await
+    </h3>
+    <p id="df">
+
+    </p>
+    <script>
+        async function add(a,b){
+            let response = await a+b
+            display(response)
+        }
+        function display(some){
+            document.getElementById("df").innerHTML = some;
+        }
+        add(9,3);
+
+
+    </script>
+</body>
+</html>
